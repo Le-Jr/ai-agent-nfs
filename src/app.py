@@ -1,5 +1,5 @@
 import streamlit as st
-from ai import call_ai
+from src.ai import call_ai
 from langchain_core.messages import HumanMessage, AIMessage
 
 def main():
